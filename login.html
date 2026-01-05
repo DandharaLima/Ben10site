@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Acesse sua conta</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="login.css"> </head>
+<body>
+
+    <header>
+        <h1>Acesse sua conta</h1>
+    </header>
+
+    <main class="container-login">
+        
+        <form class="form-login" action="processar_login.php" method="POST">
+            
+            <h2>Fazer Login</h2>
+
+            <p id="legendadedados">Email</p>
+            <label class="label-input" for="email_login">
+                <input type="email" id="email_login" name="email_login" placeholder="Seu Email" required>
+            </label>
+
+            <p id="legendadedados">Senha</p>
+            <label class="label-input" for="senha_login">
+                <input type="password" id="senha_login" name="senha_login" placeholder="Sua Senha" required>
+            </label>
+
+            <div class="div-botao">
+                <button type="submit" class="btn-login">Entrar</button>
+            </div>
+            
+            <p class="link-cadastro-alternativo">
+                Não tem conta? <a href="cadastro.html">Cadastre-se aqui</a>
+            </p>
+
+        </form>
+    </main>
+
+</body>
+</html>

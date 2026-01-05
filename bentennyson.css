@@ -1,0 +1,153 @@
+body
+{
+    background-image: url(e48547efc891357e384dc04efa06e5d2.gif)
+}
+
+nav
+{
+  text-align: center;
+  text-decoration:wavy;
+  padding-top: 1%;
+  background-color: rgb(0, 255, 60);
+  letter-spacing: 60%;
+}
+
+nav :hover
+{
+  color: rgb(0, 101, 67);
+  text-shadow: #006a0e;
+  transform: scale(1.5);
+}
+
+.Título1
+{
+    margin: 0%;
+    background-color: rgb(127, 255, 157);
+    text-align: center;
+}
+
+.Título2
+{ 
+    margin: 0%;
+    background-color: rgb(159, 255, 127);
+    text-align: center;
+}
+
+.Título3
+{
+    margin: 0%;
+    background-color: rgb(4, 255, 0);
+    text-align: center;
+}
+
+.Parágrafo
+{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    margin: 0%;
+    text-align: justify;
+    padding: 20-px;
+    line-height: 1.7;
+}
+
+div
+{
+    background-color: black;
+}
+
+
+.imagem img 
+{
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+}
+  
+
+.imagem1, .imagem2, .imagem3 {
+    height: auto; /* Melhor usar auto para imagens */
+    width: 100%; /* Preenche 100% da sua div pai (.imagem) */
+    display: block; 
+    /* REMOVA margin-left: auto; e margin-right: auto; */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    padding: 0; 
+}
+
+.bloco {
+    display: flex; /* ESSENCIAL: Alinha itens na horizontal */
+    gap: 20px; /* Espaço entre o texto e a imagem */
+    flex-wrap: wrap;
+    margin: 40px auto; /* Centraliza o bloco na página e dá espaço superior/inferior */
+    align-items: flex-start; /* Alinha o texto e a imagem pelo topo */
+    max-width: 1200px; 
+    /* Garante que o texto e a imagem não encostem no próximo título: */
+    padding-bottom: 50px;
+}
+
+.texto {
+    /* Deixe o texto crescer para ocupar o espaço restante */
+    flex: 1; 
+    min-width: 300px;
+    font-size: 16px;
+    line-height: 1.5;
+    /* Reduzindo o padding do parágrafo aqui, se for o caso */
+    padding-right: 20px; 
+}
+
+/* Garante que o bloco de imagem tenha um tamanho fixo */
+.imagem {
+    /* Define que a imagem não deve crescer nem diminuir, mantendo um tamanho base */
+    flex: 0 0 250px; 
+    text-align: right;
+}
+.footer
+{
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 20px;
+  font-weight: bold;
+  margin-top: 40px;
+  display: block;
+  clear: both; 
+}
+
+.footer ul
+{
+ 
+  padding: 0;
+  margin: 10px 0 0 0;
+}
+
+.footer li 
+{
+  margin: 5px 0;
+  text-align: center;
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+  color: #ccc;
+}
+
+.footer a {
+  color: #90caf9;
+  text-decoration: none;
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+  color: #ccc;
+}
+
+.footer a:hover 
+{
+  text-decoration: underline;
+  text-align: center;
+
+}
+
+audio 
+{
+  position: static; 
+  margin-top: 10px; 
+}

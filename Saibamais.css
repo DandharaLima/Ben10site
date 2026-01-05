@@ -1,0 +1,51 @@
+body
+{
+    background-image: url(e48547efc891357e384dc04efa06e5d2.gif)
+}
+
+h1{
+    position: relative;
+}
+
+div
+{
+    background-color: black;
+}
+
+.Título1
+{
+    margin: auto;
+    background-color: rgb(127, 255, 157);
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+}
+
+.Título2
+{ 
+    margin: auto;
+    color: rgb(0, 255, 21);
+    background-color: rgb(0, 0, 0);
+    padding: 15px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+}
+
+.Parágrafo
+{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    margin: 0%;
+    text-align: center;
+    padding: 15px;
+    line-height: 1.7;
+}

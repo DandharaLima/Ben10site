@@ -1,0 +1,78 @@
+body
+{
+    background-image: url(e48547efc891357e384dc04efa06e5d2.gif)
+}
+
+title
+{
+    text-align: center;
+    padding-top: 1%;
+    letter-spacing: 60%;
+}
+
+
+main
+{
+    text-align: center;
+}
+
+.container-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Estilo do formulário de login */
+.form-login {
+    background-color: #1a1a1a; /* Cor de fundo escura, como o seu site */
+    color: #90EE90; /* Cor do texto verde clara */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(144, 238, 144, 0.5); /* Sombra verde */
+    width: 100%;
+    max-width: 350px;
+}
+
+/* Estilo para os inputs (Email, Senha) */
+.form-login input[type="email"],
+.form-login input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #333;
+    border-radius: 4px;
+    background-color: #2a2a2a;
+    color: white;
+}
+
+.btn-login {
+    width: 100%;
+    padding: 10px;
+    background-color: #00ff22; /* Azul clássico para Login */
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.btn-login:hover {
+    background-color: #86fb95;
+}
+
+.link-cadastro-alternativo {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.link-cadastro-alternativo a {
+    color: #90EE90;
+    text-decoration: none;
+}
+
+.link-cadastro-alternativo a:hover {
+    color: #ADFF2F; /* Muda para um verde mais forte (Green Yellow) */
+}
