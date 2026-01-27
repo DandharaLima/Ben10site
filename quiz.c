@@ -5,7 +5,7 @@ int main () {
     int pontuacao = 0;
 
     printf("===================================\n");
-    printf("       QUIZ BEN 10\n");
+    printf("         QUIZ BEN 10\n");
     printf("===================================\n\n");
 
     // Pergunta 1

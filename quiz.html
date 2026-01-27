@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz Ben 10</title>
+    <link rel="stylesheet" href="quiz-estilo.css">
+</head>
+<body>
+    <h1>QUIZ BEN 10</h1>
+    <div class="pergunta-caixa">
+        <p>1. Qual é o nome inteiro do Ben?</p>
+        <button onclick="conferir('c')">A. Bênio Tennyson</button>
+        <button onclick="conferir('c')">B. Benjamin Tennyson</button>
+        <button onclick="conferir('c')">C. Benjamin Kirby Tennyson</button>
+    </div>
+    <div class="pergunta-caixa">
+        <p>2. Quem é o Albedo?</p>
+        <button onclick="conferir('b')">"A. Amigo do Ben</button>
+        <button onclick="conferir('b')">B. Inimigo do Ben</button>
+        <button onclick="conferir('b')">C. Primo do Ben</button>
+    </div>
+     <div class="pergunta-caixa">
+        <p>3. Qual é o nome da avó do Ben?</p>
+        <button onclick="conferir('a')">A. Sandra Tennyson</button>
+        <button onclick="conferir('a')">B. Gwen Tennyson</button>
+        <button onclick="conferir('a')">C. Vera Tennyson</button>
+    </div>
+    <div class="pergunta-caixa">
+        <p>4. Quem criou o desenho?</p>
+        <button onclick="conferir('c')">A. Thurop Van Orman</button>
+        <button onclick="conferir('c')">B. Patrick McHale</button>
+        <button onclick="conferir('c')">C. Man of Action</button>
+    </div>
+      <div class="pergunta-caixa">
+        <p>5. Qual é o melhor amigo do Ben?</p>
+        <button onclick="conferir('a')">A. Kevin Leven</button>
+        <button onclick="conferir('a')">B. Gwen Tennyson</button>
+        <button onclick="conferir('a')">C. Woodrow Tennison</button>
+    </div>
+</body>
+<script>
+    let pontuacao = 0;
+    function conferir(escolha, correta) {
+        if (escolha === correta) {
+            pontuacao++;
+            alert("Acertou! Omnitrix carregado. Pontos: " + pontuacao);
+        } else {
+            alert("Errou! Resposta certa: " + correta.toUpperCase());
+        }
+    }
+</script>
+</html>
