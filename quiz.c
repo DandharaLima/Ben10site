@@ -22,8 +22,8 @@ int main () {
     }
 
     // Pergunta 2
-    printf("2. Qual é o Omnitrix?\n");
-    printf("A. Uma arma intergaláctica\nB. Um relógio que permite transformação\nC. Um computador alien\n");
+    printf("2. Quem é o Albedo?\n");
+    printf("A. Amigo do Ben\nB. Inimigo do Ben\nC. Primo do Ben\n");
     printf("Sua Resposta: ");
     scanf(" %c", &resposta);
 
@@ -31,7 +31,7 @@ int main () {
         printf("Você acertou!\n\n");
         pontuacao++;
     } else {
-        printf("Lamento, você errou! A resposta correta era B: Um relógio que permite transformação\n\n");
+        printf("Lamento, você errou! A resposta correta era B: Inimigo do Ben\n\n");
     }
 
     // Pergunta 3
@@ -48,8 +48,8 @@ int main () {
     }
 
     // Pergunta 4
-    printf("4. Qual é a forma alien mais poderosa nos primeiros 10 anos?\n");
-    printf("A. Four Arms\nB. Heatblast\nC. Alien X\n");
+    printf("4. Quem criou o desenho?\n");
+    printf("A. Thurop Van Orman\nB. Patrick McHale\nC. Man of Action\n");
     printf("Sua Resposta: ");
     scanf(" %c", &resposta);
 
@@ -57,12 +57,12 @@ int main () {
         printf("Você acertou!\n\n");
         pontuacao++;
     } else {
-        printf("Lamento, você errou! A resposta correta era C: Alien X\n\n");
+        printf("Lamento, você errou! A resposta correta era C: Man of Action\n\n");
     }
 
     // Pergunta 5
     printf("5. Qual é o melhor amigo do Ben?\n");
-    printf("A. Kevin 11\nB. Gwen Tennyson\nC. Woodrow Tennison\n");
+    printf("A. Kevin Leven\nB. Gwen Tennyson\nC. Woodrow Tennison\n");
     printf("Sua Resposta: ");
     scanf(" %c", &resposta);
 
@@ -70,7 +70,7 @@ int main () {
         printf("Você acertou!\n\n");
         pontuacao++;
     } else {
-        printf("Lamento, você errou! A resposta correta era A: Kevin 11\n\n");
+        printf("Lamento, você errou! A resposta correta era A: Kevin Leven\n\n");
     }
 
     // Resultado Final
@@ -86,7 +86,7 @@ int main () {
     } else if (pontuacao >= 1) {
         printf("Não foi ruim, mas tente estudar mais sobre Ben 10!\n");
     } else {
-        printf("Que pena! Recomendamos assistir Ben 10 novamente!\n");
+        printf("Que pena! Recomendo assistir Ben 10 novamente!\n");
     }
 
     return 0;
